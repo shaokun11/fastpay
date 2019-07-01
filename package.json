@@ -1,0 +1,23 @@
+{
+  "name": "fastpay",
+  "version": "1.0.0",
+  "description": "a tools for fast pay",
+  "entry point": "./src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": ["fast","fasteco"],
+  "author": "shaokun",
+  "license": "ISC",
+  "git repository":"https://github.com/shaokun11/fastpay.git",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.3.7",
+    "node-fetch": "^2.6.0"
+  }
+}
